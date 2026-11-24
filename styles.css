@@ -1,0 +1,397 @@
+body{
+  background-color: whitesmoke;
+}
+
+#hub{
+  color: blue;
+}
+#hea{
+  background-color:whitesmoke;
+  height:80px;
+  display: flex;
+  position: relative;
+  
+ }
+#learn{
+  position: absolute;
+  top:27px;
+  left:90px;
+}
+#hub{
+  position: absolute;
+  top:27px;
+  left:150px;
+}
+#home,#res,#about,#cou,#contact{
+  position: absolute;
+  top:55px;
+}
+#home{
+  left:340px
+}
+#res{
+  left:400px
+}
+#about{
+  left:485px;
+}
+#cou{
+  left:540px;
+}
+#contact{
+  left:610px;
+}
+#bu{
+  background-color:dodgerblue;
+  color: white;
+  border:none;
+  border-radius: 20px;
+  height: 30px;
+  position: absolute;
+  top:45px;
+  left:950px;
+}
+#id{
+  display:flex;
+  position: relative;
+  
+}
+#photo{
+  width:1255px;
+
+}
+#pik{
+  display: none;
+}
+#lear{
+text-align: center;
+position: absolute;
+background-color: dodgerblue;
+color:white;
+top:284px;
+left:133px;
+height:33px;
+width: 161px;
+border-radius:10px;
+}
+#lea{
+  text-align: center;
+position: absolute;
+background-color:white;
+color:dodgerblue;
+top:283px;
+left:300px;
+height:35px;
+width: 130px;
+border-radius:10px;
+border-color: dodgerblue;
+}
+#ma{
+  display: flex;
+  position: relative;
+  background-color:whitesmoke;
+  height:250px;
+  text-align: center;
+}
+#pika
+{
+ 
+ text-align: center;
+  position: absolute;
+    left:350px;
+   top:0px;
+}
+#one,#two,#three,#four{
+  position: absolute;
+  height:125px;
+  width: 220px;
+  color:black;
+  background-color: white;
+  border-radius: 10px;
+
+}
+#two{
+  left:100px;
+  top:110px;
+  
+}
+#one{
+  left:380px;
+  top:110px;
+}
+#three{
+  left:660px;
+  top:110px;
+}
+#four{
+   left:940px;
+  top:110px;
+}
+#pic{
+  position: relative;
+}
+#read{
+position: absolute;
+ border-radius: 10px;
+ background-color: dodgerblue;
+ color:white;
+ height:35px;
+ width: 130px;
+ bottom:20px;
+ left:690px;
+}
+#slast{
+  height:250px;
+ position: relative;
+  text-align: center;
+  background-color:whitesmoke;
+}
+#on,#tw,#th{
+  position: absolute;
+  background-color:white;
+  height: 125px;
+  width:290px;
+ border-radius: 10px;
+}
+#on{
+  left:120px;
+}
+#tw{
+  left:470px;
+  
+}
+#th{
+  right:130px;
+}
+#lap,#dimag,#kagaz{
+  position: absolute;
+  height: 100px;
+  width: 125px;
+  border-radius: 10px;
+  top:10px;
+  left:0px;
+}
+#l,#d,#k{
+  position: absolute;
+  top:12px;
+  right:30px ;
+  background-color:dodgerblue;
+  border-radius: 10px;
+  color: white;
+  border-color: none;
+}
+#d{
+  background-color: violet;
+}
+#k{
+  background-color: green;
+}
+#A,#B,#C{
+  position: absolute;
+  right: 10px;
+  top:20px;
+}
+#a,#b,#c{
+  position: absolute;
+  top:50px;
+  font-size:10px;
+  left:125px;
+}
+#aa{
+  position: absolute;
+  color: dodgerblue;
+  bottom:6px;
+  left:130px;
+  font-size:11px;
+}
+#footer{
+  display: flex;
+  position: relative;
+  height: 180px;
+  background-color: navy;
+  justify-content:space-evenly;
+  align-items: start;
+  text-align: left;
+}
+#le,#ar,#n,#s{
+  height:130px;
+  width: 160px;
+  background-color: navy;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+#subs{
+  position: absolute;
+  background-color: dodgerblue;
+  height: 20px;
+  width: 70px;
+  bottom:27px;
+  right:35px;
+  color:white;
+  }
+ @media screen and (max-width:395px) {
+  body{
+    background-color:whitesmoke;
+    width: 393px;
+  }
+  #photo{
+    width:393px;
+    height: 100px;
+  }
+  #learn{
+    left:5px;
+  }
+  #hub{
+    left:65px;
+  }
+  #home,#about,#res,#cou,#contact{
+    display: none;
+  }
+ #pika{
+  left:0px;
+ }
+  #ma{
+    height:360px;
+  }
+  #bu{
+    display: none;
+  }
+  #one,#two,#three,#four{
+    top:130px;
+    height: 100px;
+    width:170px;
+    font-size:13px;
+  }
+  #two{
+    left:0;
+  }
+  #three{
+    left:0;
+    top:250px;
+  }
+  
+  #four{
+    left:200px;
+    top:250px;
+  }
+ #one{
+  left:200px;
+ }
+ #pic {
+    width: 393px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+
+#ppic {
+    display: none;
+}
+
+#pik {
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+#slast{
+  height:460px;
+  width:393px;
+}
+#on,#tw,#th{
+  left:30px;
+  width:350px
+}
+#tw{
+  top:220px;
+}
+#th{
+  bottom:0;
+}
+#footer{
+  height:70px;
+}
+#bu,#lea{
+  display: none;
+}
+#input,#subs,#n,#s{
+  display: none;
+}
+#ar,#le{
+  height:70px ;
+  font-size:7px;
+}
+
+ }
+ @media screen and (min-width: 768px) and (max-width: 1033px) {
+    /* Tablet CSS */
+    body{
+      width:1032px;
+      height: 1376px;
+
+    }
+    #phot{
+      width:1032px;
+    }
+    #photo{
+      width: 1032px;
+    }
+    #ma{
+      text-align: center;
+      height: 350px;
+    }
+    #pika{
+      left:260px;
+    }
+    #footer{
+      display: none;
+    }
+    #one,#two,#three,#four{
+      width: 350px;
+      height:80px
+    }
+    #one{
+      left:600px;
+    }
+    #two{
+      left:100px;
+    }
+    #three{
+      left:100px;
+      top:240px;
+    }
+    #four{
+      left:600px;
+      top:240px;
+    }
+    #read{
+     bottom:10px;
+     left:500px;
+    }
+    #ppic{
+      width: 1032px;
+    }
+    #on{
+      left:20px;
+    }
+    #th{
+      right:20px;
+    }
+    #tw{
+      left:380px;
+    }
+    #lea{
+      top:245px;
+      left:237px;
+      width:120px;
+    }
+    #lear{
+      top:245px;
+      left:110px;
+      width:130px;
+    }
+
+}
+ 
