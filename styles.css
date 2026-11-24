@@ -12,19 +12,31 @@ body{
   position: relative;
   
  }
+a{
+  text-decoration: none;
+  color:white;
+}
 #learn{
   position: absolute;
   top:27px;
   left:90px;
 }
+
 #hub{
   position: absolute;
   top:27px;
   left:150px;
 }
+#logo{
+  position: absolute;
+  top:40px;
+  left:39px;
+}
 #home,#res,#about,#cou,#contact{
   position: absolute;
   top:55px;
+  color: black;
+ 
 }
 #home{
   left:340px
@@ -213,6 +225,11 @@ position: absolute;
   align-items: start;
   text-align: left;
 }
+#i{
+  position: absolute;
+  left:50px;
+  top:5px;
+}
 #le,#ar,#n,#s{
   height:130px;
   width: 160px;
@@ -241,13 +258,36 @@ ul{
     height: 100px;
   }
   #learn{
-    left:5px;
-  }
-  #hub{
-    left:65px;
-  }
+        left:45px;
+      }
+      #hub{
+        left:110px;
+      }
+      #logo{
+        left:0px;
+      }
+     
   #home,#about,#res,#cou,#contact{
     display: none;
+  }
+  #read{
+    left:0;
+    bottom:5px;
+  }
+  #lear{
+    top:165px;
+    left:18px;
+    width:80px;
+    height: 23px;
+    font-size: 9px;
+
+  }
+  #lea{
+    top:165px;
+    left:100px;
+    width:80px;
+    height:23px;
+    font-size:9px;
   }
  #pika{
   left:0px;
@@ -300,6 +340,9 @@ ul{
   height:460px;
   width:393px;
 }
+#i{
+  display:none;
+}
 #on,#tw,#th{
   left:30px;
   width:350px
@@ -313,7 +356,7 @@ ul{
 #footer{
   height:70px;
 }
-#bu,#lea{
+#bu{
   display: none;
 }
 #input,#subs,#n,#s{
@@ -330,8 +373,8 @@ ul{
     body{
       width:1032px;
       height: 1376px;
-
-    }
+      }
+      
     #phot{
       width:1032px;
     }
